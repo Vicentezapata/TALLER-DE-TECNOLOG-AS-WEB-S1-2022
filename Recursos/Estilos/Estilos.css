@@ -1,0 +1,63 @@
+@media only screen and (max-width:600px){
+    
+}
+body{
+    background-color: rgb(142, 132, 89);
+}
+a,p,h1,h2,h3,h4,h5,h6{
+    font-family: arial;
+    font-weight: bolder;
+}
+th,tr,td,table{
+    border: 0.5px solid black;
+    border-spacing: unset;
+}
+table {
+    width: 100%;
+}
+th,td{
+    width: 50%;
+}
+.prc-25{
+    width: 25%;
+}
+a{
+    color: rgb(255, 255, 255);
+    
+}
+div{
+    background-color: #680000;
+    -webkit-box-shadow: 17px 22px 20px 5px #000000; 
+    box-shadow: 17px 22px 20px 5px #000000;
+}    
+#Banner{
+    background-color: #d0cda8;
+}
+.estilo-texto-destacado{
+    color: white;
+}
+.centrado{
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+.col{
+    flex: 1 0 0%;
+}
+.w100{
+    width: 100%;
+}
+.navbar{
+    display: flex;
+}
+.sinPunto{
+    list-style: none;
+    justify-content: space-between;
+}
